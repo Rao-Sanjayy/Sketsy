@@ -21,7 +21,7 @@ async function loadMyModel() {
 function setup() {
   loadMyModel();
 
-  cnv = createCanvas(400, 400);
+  cnv = createCanvas(500, 500);
   background(255);
   cnv.parent('canvasContainer');
 
